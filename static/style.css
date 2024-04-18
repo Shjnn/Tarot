@@ -1,0 +1,40 @@
+img {
+    padding: 150px 50px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    padding: 10px 30px;
+    font-size: 30px;
+    opacity: 0.8;
+    background-image: url(Fontbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    color: #ffffff;
+    border:#0de1ba;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+a {
+    padding: 10px 20px;
+    opacity: 0.9;
+    font-size: 23px;
+    background-color: #0de1ba;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

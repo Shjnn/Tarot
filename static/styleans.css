@@ -1,0 +1,21 @@
+body {
+    background-image: url(wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+h1 {
+    padding: 10px 25px;
+    color: #b87c0c;   
+    text-align:center;
+}   
+h2 {
+    color: #b87c0c;
+    text-align: left;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+    color: aliceblue;
+    text-align: left;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <img></img>
+    <title>Web Bói Bài Tarot</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <style>
+        select {
+            padding: 10px;
+            font-size: 16px;
+            opacity: 0.8;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            appearance: none;
+            -webkit-appearance: none;
+            background-color: #ffffff;
+            background-image: url("/static/drop-arrow.jpg");
+            background-repeat: no-repeat;
+            background-position: right center;
+            cursor: pointer;
+        }
+
+        /* Style for the dropdown arrow image */
+        select::-ms-expand {
+            opacity: 0.8;
+            display:flex;
+        }
+
+        /* Style when the dropdown is open */
+        select:focus {
+            outline: none;
+            box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bạn có tin vào tâm linh?
+      <br>
+        Hãy tìm cho bản thân một lời khuyên đúng đắn:</br>
+    </h1>
+
+    <div>
+      <select id="selectOption" onchange="handleChange(event)">
+       <option value="option3">Hãy chọn một lĩnh vực</option>
+        <option value="option1">Tình Duyên</option>
+        <option value="option2">Học Tập</option>
+      </select>
+    </div>
+  
+    <script src="script.js"></script>
+    <script>
+      function handleChange(event) {
+        const selectedOption = event.target.value;
+        if (selectedOption === 'option1') {
+          window.location.href = '/tarot';
+        }
+        if (selectedOption === 'option2') {
+          window.location.href = '/tarot2';
+        }
+      }
+    </script>
+    <a href="https://forms.gle/uZavfqMEFqakA9xD6" 
+    style="color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    background-color: #0F2E5C;
+    position: 0% 0;
+    margin: 70px 50px;">Feedback</a>
+    <a href="https://www.facebook.com/profile.php?id=100087441152697" style="color: white;text-decoration: none;display: inline-block;font-size: 25px; background-color: #0F2E5C; position: 0% 0;margin: 70px 50px;">Facebook</a>
+</body>
+</html>
